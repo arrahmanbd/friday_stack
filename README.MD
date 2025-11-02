@@ -1,6 +1,4 @@
-
-
-#  FridayStack — Nuxt 4  Playground
+# FridayStack — Nuxt 4  Playground
 
 My old full-stack playground, now evolved with **Nuxt 4**, **Vue 4**, and **modern developer tooling**.
 FridayStack demonstrates clean architecture, state management with **Pinia**, and API integration with **Axios** — all wrapped in a fast, intuitive, and scalable Nuxt setup.
@@ -22,15 +20,9 @@ FridayStack demonstrates clean architecture, state management with **Pinia**, an
 ### 1. Create a Nuxt 4 Project
 
 ```bash
-# Create new Nuxt 4 project
 npm create nuxt@latest
 ```
 
-*Or the old way:*
-
-```bash
-npx nuxi init my-nuxt-app
-```
 
 ### 2. Install Dependencies
 
@@ -47,6 +39,11 @@ npm install pinia axios
 ##  **Nuxt Configuration**
 
 Add **Pinia** to your Nuxt config (`nuxt.config.ts`):
+```bash
+npm i pinia @pinia/nuxt
+```
+
+Pinia configuration: 
 
 ```ts
 // nuxt.config.ts

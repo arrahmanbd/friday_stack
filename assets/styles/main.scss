@@ -1,0 +1,10 @@
+// Customize colors before Bootstrap import
+$primary: #4f46e5;
+$secondary: #64748b;
+// Import Bootstrap (CSS only)
+@import "bootstrap/scss/bootstrap";
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #4f46e5;
+}
