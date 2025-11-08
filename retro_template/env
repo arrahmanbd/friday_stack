@@ -1,0 +1,11 @@
+# Gmail
+GMAIL_USER=your-gmail@gmail.com
+GMAIL_PASS=your-gmail-app-password
+
+# Outlook/Hotmail
+OUTLOOK_USER=your-email@outlook.com
+OUTLOOK_PASS=your-password
+
+# Yahoo
+YAHOO_USER=your-email@yahoo.com
+YAHOO_PASS=your-password
